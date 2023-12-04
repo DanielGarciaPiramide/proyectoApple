@@ -28,3 +28,34 @@ h3{
     font-size: 24px;
 }     
 }
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.Picture{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+   margin-left: 25%;
+   margin-right: 25%;
+}
+@media all and (max-width:1200px) {
+.hPicture{
+font-size: 96px;
+}
+}
+@media all and (max-width:1064px) {
+.hPicture{
+font-size: 64px;
+}
+}
+@media all and (max-width:734px) {
+.hPicture{
+font-size: 48px;
+}
+}

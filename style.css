@@ -28,10 +28,6 @@ h3{
     font-size: 24px;
 }     
 }
-
-
-
-
 nav{
     display: flex;
     justify-content: space-around;
@@ -41,21 +37,87 @@ nav{
     flex-direction:column;
     justify-content: center;
     text-align: center;
+    margin-top: 7%;
    margin-left: 25%;
    margin-right: 25%;
 }
+
 @media all and (max-width:1200px) {
+
 .hPicture{
 font-size: 96px;
 }
+
+.pPicture{
+
+    font-size: 24px;
+}
+
 }
 @media all and (max-width:1064px) {
 .hPicture{
+
 font-size: 64px;
+
 }
+.pPicture{
+    font-size: 24px;
+}
+
 }
 @media all and (max-width:734px) {
 .hPicture{
+
 font-size: 48px;
+
 }
+.pPicture{
+
+    font-size:21px;
+    
+}
+}
+.p2{
+    height: 100vh;
+    background-color: rgb(221, 219, 219);
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+}
+.centrar{
+    margin-left: 25%;
+}
+.texto1{
+    text-align: center;
+    color: white;
+}
+.botonp2{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+color: white;
+border: none;
+border-radius:20px;
+background-color: rgb(24, 186, 214);
+}
+.azul{
+    color:rgb(6, 171, 236);
+}
+.botonesp2{
+justify-content: center;
+text-align: center;
+gap: 30px;
+}
+.img1{
+    border-radius: 20px;
+    background-color: black;
+}
+.img2{
+    border-radius: 20px;
+    background-color: white;
+}
+.texto2{
+    text-align: center;
 }
